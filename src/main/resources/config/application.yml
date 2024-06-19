@@ -160,6 +160,11 @@ spring:
     ansi:
       console-available: true
 
+  exchange-rate-update-interval: 10
+  API_KEY: ''
+  base: 'EUR'
+  symbols: 'USD,GBP,CHF'
+
 server:
   servlet:
     session:
