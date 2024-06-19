@@ -31,7 +31,8 @@ import tech.jhipster.web.util.ResponseUtil;
  * REST controller for managing {@link com.forex.test.domain.ExchangeRate}.
  */
 @RestController
-@RequestMapping("/api/exchange-rates")
+//@RequestMapping("/api/exchange-rates")
+@RequestMapping("/json_api")
 public class ExchangeRateResource {
 
     private final Logger log = LoggerFactory.getLogger(ExchangeRateResource.class);
